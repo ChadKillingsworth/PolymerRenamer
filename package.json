@@ -1,0 +1,37 @@
+{
+  "name": "@polymer/polymer-renamer",
+  "version": "1.0.0",
+  "description": "Update polymer components with the symbol renaming from closure-compiler",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PolymerLabs/PolymerRenamer.git"
+  },
+  "keywords": [
+    "minification",
+    "closure-compiler",
+    "polymer"
+  ],
+  "main": "node/lib/",
+  "files": [
+    "PolymerRenamer.jar",
+    "node/"
+  ],
+  "author": "The Polymer Authors",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/PolymerLabs/PolymerRenamer/issues"
+  },
+  "homepage": "https://github.com/PolymerLabs/PolymerRenamer",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "tempfile": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "stream-assert": "^2.0.3"
+  }
+}

@@ -1,3 +1,5 @@
 # Ignore Build Artifacts
 build/
 buildtest/
+node_modules
+PolymerRenamer.jar
